@@ -1,0 +1,23 @@
+body {
+    font: "Roboto";
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+}
+  
