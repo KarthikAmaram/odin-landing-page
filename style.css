@@ -12,7 +12,8 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 12px;
-    margin-top: 0;
+    color: #e5e7eb94;
+    padding-left: 0;
   }
 
 a {
@@ -21,11 +22,29 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
-    padding: 8px;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 0;
 }
 
 .main{
     display: flex;
 }
-  
+
+a {
+    color: inherit;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 150px;
+}
+ ul.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 150px;
+ }
