@@ -4,8 +4,9 @@ body {
     padding: 0;
     width: 100vw;
     min-height: 100vh;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
+    justify-content: space-between; */
 }
 
 ul {
@@ -30,6 +31,13 @@ a {
 
 .main{
     display: flex;
+    background-color: #1F2937;
+    flex: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 a {
@@ -47,4 +55,44 @@ a {
     flex-direction: row;
     align-items: center;
     padding-right: 150px;
+ }
+
+ .image-box {
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    align-self: center;
+    
+ }
+
+ .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    
+ }
+
+ .main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 400px;
+ }
+
+ .secondary-text {
+    font-size: 18px;
+    color: #cbcccd;
+    width: 450px;
+ }
+
+ button {
+    width: 100px;
+    background: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: white
  }
